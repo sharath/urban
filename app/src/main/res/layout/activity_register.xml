@@ -12,6 +12,7 @@
 
     <EditText
         android:id="@+id/password"
+        android:inputType="textPassword"
         android:layout_below="@id/username"
         android:hint="@string/pass"
         android:layout_centerHorizontal="true"
