@@ -2,4 +2,13 @@
     <string name="app_name">Urban</string>
     <string name="hw">Hello, World!</string>
     <string name="gw">Goodbye, World!</string>
+
+    <!-- Sign Up Strings -->
+    <string name="user">Username</string>
+    <string name="pass">Password</string>
+    <string name="f_name">First Name</string>
+    <string name="l_name">Last Name</string>
+    <string name="email">E-mail</string>
+    <string name="signup">Sign Up</string>
+
 </resources>
