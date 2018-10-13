@@ -30,15 +30,15 @@ public class RegisterActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        EditText user = (EditText)  findViewById(R.id.username);
-        EditText pass = (EditText)  findViewById(R.id.password);
-        EditText fname = (EditText)  findViewById(R.id.first_name);
-        EditText lname = (EditText)  findViewById(R.id.last_name);
-        EditText email = (EditText)  findViewById(R.id.email_address);
+        EditText user =  findViewById(R.id.username);
+        EditText pass =  findViewById(R.id.password);
+        EditText fname = findViewById(R.id.first_name);
+        EditText lname = findViewById(R.id.last_name);
+        EditText email = findViewById(R.id.email_address);
 
         final EditText list [] = {user, pass, fname, lname, email};
 
-        Button sign_up = (Button) findViewById(R.id.signup);
+        Button sign_up = findViewById(R.id.signup);
         final Map<String, String> data = new HashMap<String, String>();
         data.put("username", "");
         data.put("password", "");
